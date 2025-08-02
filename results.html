@@ -1,0 +1,146 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+        <title>WTr Results Report</title>
+        <style>
+            body { font-family: Arial, sans-serif; margin: 40px; }
+            .header { background-color: #f0f0f0; padding: 20px; border-radius: 5px; }
+            .section { margin: 30px 0; }
+            table { border-collapse: collapse; width: 100%; margin: 20px 0; }
+            th, td { border: 1px solid #ddd; padding: 8px; text-align: left; }
+            th { background-color: #f2f2f2; }
+            .plot { text-align: center; margin: 20px 0; }
+            .plot img { max-width: 800px; width: 100%; }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>WTr Results Report</h1>
+            <p><strong>Run Directory:</strong> wtr_run</p>
+            <p><strong>Total Configurations:</strong> 5</p>
+            <p><strong>Generated:</strong> 2025-07-31 04:31:19</p>
+        </div>
+        
+        <div class="section">
+            <h2>Top Surface Configurations</h2>
+            <table border="1" class="dataframe" id="results_table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Rank</th>
+      <th>Surface_ID</th>
+      <th>ΔE‡ (eV)</th>
+      <th>ΔG‡_10K (eV)</th>
+      <th>ΔG‡_20K (eV)</th>
+      <th>k_10K (s⁻¹)</th>
+      <th>k_20K (s⁻¹)</th>
+      <th>E_field_proj (V/Å)</th>
+      <th>Donors</th>
+      <th>Acceptors</th>
+      <th>Wire_length (Å)</th>
+      <th>Strain</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>eval_004</td>
+      <td>7.481327</td>
+      <td>7.481327</td>
+      <td>7.481327</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.107954</td>
+      <td>1</td>
+      <td>3</td>
+      <td>inf</td>
+      <td>5.48862</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>eval_001</td>
+      <td>7.481337</td>
+      <td>7.481337</td>
+      <td>7.481337</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.107991</td>
+      <td>1</td>
+      <td>3</td>
+      <td>inf</td>
+      <td>5.48862</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>eval_002</td>
+      <td>7.481385</td>
+      <td>7.481385</td>
+      <td>7.481385</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.107993</td>
+      <td>1</td>
+      <td>3</td>
+      <td>inf</td>
+      <td>5.48862</td>
+    </tr>
+    <tr>
+      <td>4</td>
+      <td>eval_003</td>
+      <td>7.481386</td>
+      <td>7.481386</td>
+      <td>7.481386</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.107892</td>
+      <td>1</td>
+      <td>3</td>
+      <td>inf</td>
+      <td>5.48862</td>
+    </tr>
+    <tr>
+      <td>5</td>
+      <td>eval_000</td>
+      <td>7.482626</td>
+      <td>7.482626</td>
+      <td>7.482626</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>0.108860</td>
+      <td>1</td>
+      <td>3</td>
+      <td>inf</td>
+      <td>5.48862</td>
+    </tr>
+  </tbody>
+</table>
+        </div>
+        
+        <div class="section">
+            <h2>Visualizations</h2>
+    
+            <div class="plot">
+                <h3>Barrier Distribution</h3>
+                <img src="barrier_distribution.png" alt="barrier_distribution.png">
+            </div>
+            
+            <div class="plot">
+                <h3>Descriptor Correlations</h3>
+                <img src="descriptor_correlations.png" alt="descriptor_correlations.png">
+            </div>
+            
+        </div>
+        
+        <div class="section">
+            <h2>Summary Statistics</h2>
+            <ul>
+    
+                <li><strong>Best Barrier (10K):</strong> 7.481 eV</li>
+                <li><strong>Mean Barrier (10K):</strong> 7.482 eV</li>
+                <li><strong>Best Rate (10K):</strong> 0.00e+00 s⁻¹</li>
+        
+            </ul>
+        </div>
+    </body>
+    </html>
+    

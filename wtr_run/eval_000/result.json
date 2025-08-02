@@ -1,0 +1,27 @@
+{
+  "surface_id": "eval_000",
+  "deltaE_dagger": 7.48262600385813,
+  "deltaG_dagger_10K": 7.48262600385813,
+  "deltaG_dagger_20K": 7.48262600385813,
+  "rate_10K": 0.0,
+  "rate_20K": 0.0,
+  "descriptors": {
+    "efield": [
+      -0.06810662411770667,
+      0.11855387850814696,
+      0.07790920735806367
+    ],
+    "efield_proj": 0.10885962049114958,
+    "donor_count": 1,
+    "acceptor_count": 3,
+    "wire_length": Infinity,
+    "wire_bend_max": Infinity,
+    "strain_penalty": 5.488619857747052
+  },
+  "paths": {
+    "rc": "wtr_run/eval_000/rc_optimized.xyz",
+    "ts": "wtr_run/eval_000/ts_optimized.xyz",
+    "p": "wtr_run/eval_000/product.xyz",
+    "workdir": "wtr_run/eval_000"
+  }
+}

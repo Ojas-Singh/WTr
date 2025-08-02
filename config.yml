@@ -1,0 +1,39 @@
+calc:
+  ase_calculator: xtb
+  calc_kwargs:
+    accuracy: 1.0
+    method: GFN2-xTB
+  charge: 0
+  spin_multiplicity: 1
+reaction:
+  name: co_oh_to_hoco
+  product_xyz: input/hoco_trans.xyz
+  reactant_xyz: input/co_oh_reac.xyz
+  reaction_axis_atoms:
+  - 0
+  - 1
+  reactive_indices:
+    p:
+    - 0
+    - 1
+    rc:
+    - 0
+    - 1
+    ts:
+    - 0
+    - 1
+  ts_seed_xyz: input/co_oh_ts.xyz
+search:
+  max_evals: 5
+  n_mc_rounds: 1000
+  n_ts_templates: 5
+  workdir: wtr_run
+surface:
+  core_fraction: 0.5
+  harmonic_k: 0.0
+  radius: 8.0
+  random_seed: 42
+  waters_n: 28
+temps:
+- 10.0
+- 20.0
